@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8E2ED94A1E68E74A00239F57 /* GimmaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2ED9481E68E74A00239F57 /* GimmaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E2ED9831E68EC6900239F57 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED9821E68EC6900239F57 /* MetalView.swift */; };
+		8E2ED9851E68EC9600239F57 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2ED9841E68EC9600239F57 /* Scene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E2ED9451E68E74A00239F57 /* GimmaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GimmaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2ED9481E68E74A00239F57 /* GimmaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GimmaKit.h; sourceTree = "<group>"; };
 		8E2ED9491E68E74A00239F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2ED9821E68EC6900239F57 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		8E2ED9841E68EC9600239F57 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		8E2ED9471E68E74A00239F57 /* GimmaKit */ = {
 			isa = PBXGroup;
 			children = (
+				8E2ED9821E68EC6900239F57 /* MetalView.swift */,
+				8E2ED9841E68EC9600239F57 /* Scene.swift */,
 				8E2ED9481E68E74A00239F57 /* GimmaKit.h */,
 				8E2ED9491E68E74A00239F57 /* Info.plist */,
 			);
@@ -96,6 +102,7 @@
 					8E2ED9441E68E74A00239F57 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7C4LVS3ZVC;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2ED9851E68EC9600239F57 /* Scene.swift in Sources */,
+				8E2ED9831E68EC6900239F57 /* MetalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +246,7 @@
 		8E2ED94E1E68E74A00239F57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -251,6 +261,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = workmoose.GimmaKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -258,6 +269,7 @@
 		8E2ED94F1E68E74A00239F57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -295,6 +307,7 @@
 				8E2ED94F1E68E74A00239F57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

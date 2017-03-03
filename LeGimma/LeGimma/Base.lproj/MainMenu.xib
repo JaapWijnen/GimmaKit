@@ -18,17 +18,12 @@
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="360"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="800"/>
-            <view key="contentView" id="EiT-Mj-1SZ" customClass="GameView" customModule="Gimma" customModuleProvider="target">
+            <view key="contentView" id="EiT-Mj-1SZ" customClass="MetalView" customModule="LeGimma" customModuleProvider="target">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
             </view>
         </window>
-        <viewController id="hW3-AJ-wXb" customClass="GameViewController" customModule="Gimma" customModuleProvider="target">
-            <connections>
-                <outlet property="gameView" destination="EiT-Mj-1SZ" id="wyD-TK-jdV"/>
-            </connections>
-        </viewController>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Gimma" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="LeGimma" customModuleProvider="target">
             <connections>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>

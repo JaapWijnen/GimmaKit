@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "85E033BAC110B1E2FC3690A35D2EA9279DD51D70",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "85E033BAC110B1E2FC3690A35D2EA9279DD51D70" : 9223372036854775807,
+    "A0754AFB366CC0D1AECD986BE1C7E2C35E3BD548" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "24F69754-C654-4826-B1B3-4B5D91D406CF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "85E033BAC110B1E2FC3690A35D2EA9279DD51D70" : "GimmaKit\/",
+    "A0754AFB366CC0D1AECD986BE1C7E2C35E3BD548" : "MacOSGimma\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LeGimma",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LeGimma\/LeGimma.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:JaapWijnen\/GimmaKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85E033BAC110B1E2FC3690A35D2EA9279DD51D70"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:JaapWijnen\/MacOSGimma.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0754AFB366CC0D1AECD986BE1C7E2C35E3BD548"
+    }
+  ]
+}
